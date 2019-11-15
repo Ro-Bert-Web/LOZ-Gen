@@ -316,7 +316,7 @@ Dungeon generateDungeon(int s){
 		rslt.addDoor(Pos(0, s - 1, i * 2 + 2), Pos(rslt.getRooms() - 1, s * 2 + 3, 2), -1);
 	}
 
-	for(int i = 0; i < 10000, i++;){
+	for(int i = 0; i < 10000; i++){
 		cout << endl;
 	}
 	rslt.show();
